@@ -28,6 +28,7 @@ export default function App(){
     value={peso}
     onChangeText={(peso) => setPeso(peso)}
     placeholder="Peso em (kg)"
+    placeholderTextColor="#888"
     keyboardType="numeric"
     />
 
@@ -36,6 +37,7 @@ export default function App(){
     value={altura}
     onChangeText={(altura) => setAltura(altura)}
     placeholder="Altura em (cm)"
+    placeholderTextColor="#888"
     keyboardType="numeric"
     />
 
@@ -66,6 +68,7 @@ const styles = StyleSheet.create({
     padding: 10,
     color: '#FFF',
     fontSize: 23,
+    color:"#fff"
   },
   button:{
     justifyContent:'center',
